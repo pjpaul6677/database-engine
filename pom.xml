@@ -145,5 +145,11 @@
 
 		</plugins>
 	</build>
+	<distributionManagement>
+        <repository>
+            <id>my-maven</id>
+            <url>http://13.212.37.150:8081/repository/my-maven/</url>
+        </repository>
+  </distributionManagement>
 
 </project>
